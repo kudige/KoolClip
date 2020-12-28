@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {done = id; visitblog = id; }; 
+            CLASS = AboutPanel; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

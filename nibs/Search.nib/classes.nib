@@ -1,0 +1,16 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = SearchController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {performClose = id; textChanged = id; }; 
+            CLASS = SearchPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {box = id; searchField = id; searchList = id; table = id; textView = id; }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {CLASS = SearchView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

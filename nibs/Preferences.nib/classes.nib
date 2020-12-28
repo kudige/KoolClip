@@ -1,0 +1,92 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {modifiersChanged = id; }; 
+            CLASS = HotkeyTarget; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {cmd = id; ctl = id; opt = id; }; 
+            SUPERCLASS = NSButton; 
+        }, 
+        {
+            CLASS = KuHotkeyField; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {cmd = id; ctl = id; opt = id; }; 
+            SUPERCLASS = NSButton; 
+        }, 
+        {
+            ACTIONS = {
+                apply = id; 
+                cancel = id; 
+                flashUpdated = id; 
+                hotPress = id; 
+                resetIcons = id; 
+                support = id; 
+                uiChanged = id; 
+            }; 
+            CLASS = PrefsPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                applyButton = id; 
+                cancelButton = id; 
+                cmdClear = id; 
+                cmdCurr = id; 
+                cmdGoogle = id; 
+                cmdLock = id; 
+                cmdNext = id; 
+                cmdPrefs = id; 
+                cmdPrev = id; 
+                cmdQuit = id; 
+                cmdSearch = id; 
+                ctlClear = id; 
+                ctlCurr = id; 
+                ctlGoogle = id; 
+                ctlLock = id; 
+                ctlNext = id; 
+                ctlPrefs = id; 
+                ctlPrev = id; 
+                ctlQuit = id; 
+                ctlSearch = id; 
+                currHotkey = id; 
+                defaultIcons = id; 
+                flashAlpha = id; 
+                flashColor = id; 
+                flashDelay = id; 
+                flashHeight = id; 
+                flashWidth = id; 
+                historySize = id; 
+                iconFrozen = id; 
+                iconNormal = id; 
+                keyClear = id; 
+                keyCurr = id; 
+                keyGoogle = id; 
+                keyLock = id; 
+                keyNext = id; 
+                keyPrefs = id; 
+                keyPrev = id; 
+                keyQuit = id; 
+                keySearch = id; 
+                optClear = id; 
+                optCurr = id; 
+                optGoogle = id; 
+                optLock = id; 
+                optNext = id; 
+                optPrefs = id; 
+                optPrev = id; 
+                optQuit = id; 
+                optSearch = id; 
+                showInMenuBar = id; 
+                tabView = id; 
+                textInMenuBar = id; 
+                unsavedChanges = id; 
+                urlKBMB = id; 
+                urlKeywords = id; 
+                urlMaxdata = id; 
+                urlPreview = id; 
+            }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}
